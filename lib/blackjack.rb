@@ -27,7 +27,7 @@ def initial_round(your_cards)
   deal_card
   deal_card
   display_card_total
-  return "#{display_card_total}"# code #initial_round here
+  puts "#{display_card_total}"# code #initial_round here
 end
 
 def hit?
