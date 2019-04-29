@@ -29,7 +29,11 @@ def initial_round
   return your_cards# code #initial_round here
 end
 
-def hit?
+def hit?(n)
+  prompt_user
+  get_user_input
+  if get_user_input == "h"
+    deal_card
   # code hit? here
 end
 
