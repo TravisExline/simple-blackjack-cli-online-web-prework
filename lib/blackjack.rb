@@ -34,6 +34,7 @@ def hit?(n)
   get_user_input
   if get_user_input == "h"
     deal_card
+  end
   # code hit? here
 end
 
