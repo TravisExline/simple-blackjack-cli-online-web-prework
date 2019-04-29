@@ -32,6 +32,7 @@ end
 def hit?(your_total)
   prompt_user
   get_user_input
+  your_total = get_user_input
 end
   # code hit? here
 
