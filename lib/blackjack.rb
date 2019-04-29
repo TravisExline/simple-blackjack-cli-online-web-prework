@@ -25,7 +25,8 @@ end
 
 def initial_round
   your_cards = deal_card + deal_card
-  display_card_total(your_cards)# code #initial_round here
+  display_card_total(your_cards)
+  return your_cards# code #initial_round here
 end
 
 def hit?
