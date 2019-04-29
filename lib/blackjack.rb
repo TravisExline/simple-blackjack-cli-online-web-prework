@@ -18,13 +18,13 @@ def get_user_input
   gets.chomp# code #get_user_input here
 end
 
-def end_game(card_total)
-  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+def end_game(bust)
+  puts "Sorry, you hit #{bust}. Thanks for playing!"
   # code #end_game here
 end
 
 def initial_round(your_cards)
-  card_total = deal_card
+  
   display_card_total(card_total)# code #initial_round here
 end
 
