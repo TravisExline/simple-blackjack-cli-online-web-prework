@@ -24,7 +24,8 @@ def end_game(bust)
 end
 
 def initial_round(your_cards)
-  # code #initial_round here
+  your_cards = deal_card + deal_card
+  display_card_total(your_cards)# code #initial_round here
 end
 
 def hit?
