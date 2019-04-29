@@ -51,6 +51,6 @@ end
 def runner
   welcome
   initial_round
-  hit?
+  hit?(current_total)
   eng_game# code runner here
 end
